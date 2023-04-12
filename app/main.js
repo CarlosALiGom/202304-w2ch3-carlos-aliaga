@@ -15,7 +15,7 @@ incrementButton.addEventListener("click", () => {
     screenDisplayNumber.textContent++;
   } else {
     parrafmax.classList.remove("hidden");
-    setTimeout(function () {
+    setTimeout(() => {
       parrafmax.classList.add("hidden");
     }, 3000);
   }
@@ -26,7 +26,7 @@ decrementButton.addEventListener("click", () => {
     screenDisplayNumber.textContent--;
   } else {
     parrafmin.classList.remove("hidden");
-    setTimeout(function () {
+    setTimeout(() => {
       parrafmin.classList.add("hidden");
     }, 3000);
   }
